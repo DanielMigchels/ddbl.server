@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>e4875714-230d-4699-a020-db6f58494657</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <StartupObject>ddbl.server.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
