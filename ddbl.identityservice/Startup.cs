@@ -43,14 +43,14 @@ namespace ddbl.identityservice
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseCors("CORS");
-
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors("CORS");
 
             app.UseEndpoints(endpoints =>
             {
