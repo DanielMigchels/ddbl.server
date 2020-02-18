@@ -42,14 +42,14 @@ namespace ddbl.server
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseCors("CORS");
-
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors("CORS");
 
             app.UseEndpoints(endpoints =>
             {
