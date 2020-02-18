@@ -4,7 +4,7 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["ddbl.server/ddbl.server.csproj", "ddbl.server/"]
+COPY ["ddbl.server/ddbl.server/ddbl.server.csproj", "ddbl.server/"]
 
 RUN dotnet restore "ddbl.server/ddbl.server.csproj"
 COPY . .
