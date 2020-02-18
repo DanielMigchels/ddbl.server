@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddbl.server", "ddbl.server\ddbl.server.csproj", "{2F4873B2-77FE-4E99-B909-6B3FBB92F59A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddbl.server", "ddbl.server\ddbl.server.csproj", "{2F4873B2-77FE-4E99-B909-6B3FBB92F59A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddbl.identityservice", "ddbl.identityservice\ddbl.identityservice.csproj", "{2E8C677A-88F0-45DB-8045-70FD1AD87C17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2F4873B2-77FE-4E99-B909-6B3FBB92F59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F4873B2-77FE-4E99-B909-6B3FBB92F59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F4873B2-77FE-4E99-B909-6B3FBB92F59A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8C677A-88F0-45DB-8045-70FD1AD87C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8C677A-88F0-45DB-8045-70FD1AD87C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8C677A-88F0-45DB-8045-70FD1AD87C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8C677A-88F0-45DB-8045-70FD1AD87C17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
