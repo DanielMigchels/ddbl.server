@@ -4,11 +4,11 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["ddbl.server.csproj", "ddbl.server/"]
+COPY ["ddbl.server.csproj", "./"]
 
-RUN dotnet restore "ddbl.server/ddbl.server.csproj"
+RUN dotnet restore "./ddbl.server.csproj"
 COPY . .
-WORKDIR "/src/ddbl.server"
+WORKDIR "/src/."
 RUN dotnet build "ddbl.server.csproj" -c Release -o /app/build
 
 FROM build AS publish
