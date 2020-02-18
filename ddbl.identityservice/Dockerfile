@@ -4,11 +4,11 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["ddbl.identityservice/ddbl.identityservice.csproj", "ddbl.identityservice/"]
+COPY ["ddbl.identityservice.csproj", "./"]
 
-RUN dotnet restore "ddbl.identityservice/ddbl.identityservice.csproj"
+RUN dotnet restore "./ddbl.identityservice.csproj"
 COPY . .
-WORKDIR "/src/ddbl.identityservice"
+WORKDIR "/src/."
 RUN dotnet build "ddbl.identityservice.csproj" -c Release -o /app/build
 
 FROM build AS publish
