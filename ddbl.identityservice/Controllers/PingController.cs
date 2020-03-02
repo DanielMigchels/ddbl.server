@@ -17,7 +17,7 @@ namespace ddbl.identityservice.Controllers
             _logger = logger;
         }
 
-        [HttpGet("/")]
+        [HttpGet("/ping")]
         public IActionResult Ping()
         {
             return Ok("IdentityService is online!");

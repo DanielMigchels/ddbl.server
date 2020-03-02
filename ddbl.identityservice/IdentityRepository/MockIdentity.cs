@@ -56,7 +56,7 @@ namespace ddbl.identityservice.IdentityRepository
                 },
                 new User()
                 {
-                    Id = Guid.Parse("0b1ff4ce-88bf-4de8-9727-08f6dd4aa2fb"),
+                    Id = Guid.Parse("0b1ff4ce-88bf-4de8-9727-08f6dd4aa2fc"),
                     UserName = "realdonaldtrump",
                     DisplayName = "Donald Trump",
                     Password = "usa",
@@ -64,11 +64,19 @@ namespace ddbl.identityservice.IdentityRepository
                 },
                 new User()
                 {
-                    Id = Guid.Parse("0b1ff4ce-88bf-4de8-9727-08f6dd4aa2fb"),
+                    Id = Guid.Parse("0b1ff4ce-88bf-4de8-9727-08f6dd4aa2fd"),
                     UserName = "fdebijl",
                     DisplayName = "Floris de Bijl",
                     Password = "fdebijl",
                     Email = "f.bijl@student.fontys.nl"
+                },
+                new User()
+                {
+                    Id = Guid.Parse("0b1ff4ce-88bf-4de8-9727-08f6dd4aa2fe"),
+                    UserName = "MieskeB",
+                    DisplayName = "Michel Bijnen",
+                    Password = "Testtest123!",
+                    Email = "info@michelbijnen.nl"
                 }
             };
         }
