@@ -17,7 +17,7 @@ namespace ddbl.server.Controllers
             _logger = logger;
         }
 
-        [HttpGet("/")]
+        [HttpGet("/ping")]
         public IActionResult Ping()
         {
             return Ok("Pong!");
